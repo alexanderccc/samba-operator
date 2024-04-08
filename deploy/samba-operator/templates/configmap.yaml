@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: samba-operator-controller-cfg
+  labels:
+    {{- include "samba-operator.labels" . | nindent 4 }}
+data: null

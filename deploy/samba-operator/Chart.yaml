@@ -1,0 +1,8 @@
+apiVersion: v2
+name: samba-operator
+description: Chart for the samba-operator
+
+type: application
+
+version: 0.1.1
+appVersion: "v0.4"
